@@ -1,0 +1,197 @@
+/* General styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.container {
+    max-width: 100%;
+    margin: auto;
+    padding: 20px;
+}
+
+#hero {
+    background-image: url(new1.avif);
+    color: rgb(237, 154, 154);
+    height: 90vh;
+    width: 90%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+/* Header styles */
+
+.header {
+    background-color: rgb(246, 157, 157);
+    width: 100%;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure header stays above other content */
+}
+
+.mid {
+    display: block;
+    width: 50%;
+    margin: 12px auto;
+    text-align: center;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    list-style-type: none;
+}
+
+#navbar li {
+    padding: 0 30px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+#navbar li a {
+    color: black;
+    text-decoration: none;
+}
+
+#navbar li a:hover {
+    text-decoration: underline;
+}
+
+.right {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.right button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.right img {
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+/* Product grid and cart styles */
+
+.products {
+    background: linear-gradient(45deg, rgb(242, 241, 241), rgb(96, 90, 86));
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Keep items in a single line */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+}
+
+.product {
+    background: linear-gradient(45deg, rgb(242, 241, 241), rgb(159, 157, 157));
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    white-space: normal; /* Allow product details to wrap */
+    margin-right: 10px; /* Add spacing between products */
+}
+
+.product img {
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: 0 auto 10px; /* Center the image and add space below */
+}
+
+.product .buttons {
+    margin-top: auto; /* Push buttons to the bottom of the product */
+}
+
+.product .buttons button {
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.cart {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background: linear-gradient(45deg, rgb(206, 201, 201), rgb(234, 182, 182));
+}
+
+.cart ul {
+   
+    padding: 0;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+}
+
+.cart li {
+    display: inline-block;
+    margin-right: 10px;
+    
+}
+
+.cart li img {
+    
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 10px; /* Center the image and add space below */
+}
+
+#checkout-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#carticon img {
+    width: 20px;
+    height: 20px;
+}
+
+#carticon {
+    top: 30px;
+    text-align: center;
+    width: 100px;
+    height: 10;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+
+
+
+
+      
+
+
+
+
+
